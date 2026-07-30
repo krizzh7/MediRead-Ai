@@ -1,0 +1,18 @@
+# Core dependencies with pre-built wheels
+Flask==3.0.0
+flask-cors==4.0.0
+python-dotenv==1.0.0
+google-generativeai==0.3.2
+
+# Pillow alternative - use pre-built wheel
+# If Pillow fails, try this order:
+Pillow==10.1.0
+
+# Or use Pillow-SIMD for better performance
+# Pillow-SIMD==10.1.0
+
+# Fallback: Use imageio if Pillow fails
+# imageio==2.33.1
+
+python-multipart==0.0.6
+flask-session==0.5.0
